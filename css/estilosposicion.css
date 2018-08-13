@@ -1,0 +1,90 @@
+/* CSS Document */
+
+body{
+  background-image: url('../images/bg-2.png');
+  background-color:#FE2E2E;
+}
+
+header{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index:2;
+}
+
+header img{
+  width: 100px;
+}
+
+nav{
+  background-color:#FE2E2E;
+  position:absolute;
+  left: 50px;
+  top: 20px;
+  *z-index:1;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 50px 10px 200px;
+}
+
+nav a {
+  color:white;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.catalog {
+  position:relative;
+  left:20px;
+  top:140px;
+  width: 960px;
+  margin: auto;
+  overflow: hidden;
+  background-color:white;
+}
+
+article{
+  position:relative;
+  width: 300px
+  margin:10px 10px 10px 10px;
+}
+
+.product-image{
+  float:left;
+  width: 300px;
+}
+
+.product-status{
+  position:fixed;
+  top:0px;
+  right:0px;
+}
+
+h1{
+  margin:auto;
+  color:#FE2E2E;
+}
+
+h2{
+  margin:auto;
+  align-content: center;
+  color:white;
+  background-color:rgba(255,0,0,0.2);
+}
+
+h3{
+  float:fixed;
+  bottom: 0px
+  left:150px;
+  color:white;
+  background-color:rgba(255,0,0,1);
+}
+
+/*
+footer {
+  position:static;
+  bottom:0px;
+  left:200px;
+}
